@@ -60,7 +60,7 @@ st.markdown(html_temp,unsafe_allow_html=True)
 #---------------------------------------------------------------------------------------
 # Loading files
 #---------------------------------------------------------------------------------------
-yaml_file = open("app.yaml", 'r')
+yaml_file = open("Notebooks/app.yaml", 'r')
 yaml_content = load(yaml_file, Loader=Loader)
 
 
