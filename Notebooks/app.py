@@ -26,15 +26,9 @@ from yaml import load, Loader, dump
 img = Image.open("Notebooks/CTG.png")
 st.set_page_config(
      page_title="Test segmentation et suggestion",
-    #  page_icon=":shark",
      page_icon=img,
      layout="wide",
      initial_sidebar_state="expanded",
-    #  menu_items={
-    #      'Get Help': 'https://github.com/MerylAhounou/plane_classification_projet',
-    #      'Report a bug': "https://github.com/MerylAhounou/plane_classification_projet",
-    #      'About': "# This is an *plane classification* cool app! Let's try!!"
-    #  }
  )
 
 
@@ -42,7 +36,6 @@ st.set_page_config(
 #---------------------------------------------------------------------------------------
 # Head app
 #---------------------------------------------------------------------------------------
-# st.title("Identifation d'avion")
 html_temp = """
 <div style="background-color:blue;padding:1.5px">
 <h1 style="color:white;text-align:center;">Segmentation client et suggestion de produit </h1>
@@ -71,7 +64,7 @@ yaml_content = load(yaml_file, Loader=Loader)
 MODELS_DIR = yaml_content["MODELS_DIR"]
 
 
-PATH_CLASSES = pathlib.Path(MODELS_DIR +'\\categories.txt')
+PATH_CLASSES = pathlib.Path('Modeles/categories.txt')
 
 
 classes_names_list = []
