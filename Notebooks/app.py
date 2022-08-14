@@ -23,7 +23,7 @@ from yaml import load, Loader, dump
 #---------------------------------------------------------------------------------------
 # Config page
 #---------------------------------------------------------------------------------------
-img = Image.open("CTG.jpg.png")
+img = Image.open("CTG.png")
 st.set_page_config(
      page_title="Test segmentation et suggestion",
     #  page_icon=":shark",
