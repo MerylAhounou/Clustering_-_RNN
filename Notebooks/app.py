@@ -38,7 +38,7 @@ st.set_page_config(
 #---------------------------------------------------------------------------------------
 html_temp = """
 <div style="background-color:blue;padding:1.5px">
-<h1 style="color:white;text-align:center;">Segmentation client et suggestion de produit </h1>
+<h1 style="color:white;text-align:center;">Etude des profils client par la segmentation de la clientèle et proposition de produit </h1>
 </div><br>"""
 st.markdown(html_temp,unsafe_allow_html=True)
 
