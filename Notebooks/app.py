@@ -166,7 +166,7 @@ col1, col2 = st.columns(2)
 #---------------------------------------------------------------------------------------
 with col1:
     html_temp = """
-    <h2 style="color:white;text-align:left;">Segmentation client</h2>
+    <h2 style="color:black;text-align:left;">Segmentation client</h2>
     </div><br>"""
     st.markdown(html_temp,unsafe_allow_html=True)
 
@@ -188,7 +188,7 @@ with col1:
 #---------------------------------------------------------------------------------------
 with col2:
     html_temp = """
-    <h2 style="color:white;text-align::left;">Suggestion de produit</h2>
+    <h2 style="color:black;text-align::left;">Suggestion de produit</h2>
     </div><br>"""
     st.markdown(html_temp,unsafe_allow_html=True)
 
